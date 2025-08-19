@@ -1,0 +1,297 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="48733a2f-7c19-4fd0-809a-671a51409509" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cpu</ID>
+  <Name>Cpu</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1236" scrolltop="-2805" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6085" y="9604" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Cpu" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3572" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000f40d00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="Group_ID_480_Cpu" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1236</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2805</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="141">
+            <Shape Id="Cpu Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Cpu Id" />
+                <Attribute Id="Cpu n Cores" />
+                <Attribute Id="Cpu Vendor Name" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Cpu Socket" Expanded="false">
+              <Attributes>
+                <Attribute Id="Cpu Socket" />
+              </Attributes>
+              <Position x="201" y="20" />
+            </Shape>
+            <Shape Id="Cpu Name" Expanded="false">
+              <Attributes>
+                <Attribute Id="Cpu Name" />
+              </Attributes>
+              <Position x="201" y="68" />
+            </Shape>
+            <Shape Id="Cpu Series" Expanded="false">
+              <Attributes>
+                <Attribute Id="Cpu Series" />
+              </Attributes>
+              <Position x="201" y="116" />
+            </Shape>
+            <Shape Id="Cpu Brand" Expanded="false">
+              <Attributes>
+                <Attribute Id="Cpu Brand" />
+              </Attributes>
+              <Position x="201" y="164" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="75b72c89-18f9-4dc2-a379-e6548ff97c68">
+    <DataSourceViewID>Group ID 480 DB</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="e1eb3940-e983-4bdf-bc17-bf03420a65c9">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="0d7599bf-1450-4411-8108-2c25011906e0">
+      <ID>Cpu Id</ID>
+      <Name>Cpu Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ded9cc13-d88d-4ccf-ac73-f53f222eeff7">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="472fffe7-a092-46f8-995a-b332163adff8">
+            <TableID>Group_ID_480_Cpu</TableID>
+            <ColumnID>cpu_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a35fb2ef-efd2-48f6-93a0-256d87b33892">
+          <AttributeID>Cpu Vendor Name</AttributeID>
+          <Name>Cpu Vendor Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e707d139-db59-4917-b3fa-2698b7fc0682">
+          <AttributeID>Cpu Brand</AttributeID>
+          <Name>Cpu Brand</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="76b3119a-33b2-4aa2-bb16-cdc7594d3999">
+          <AttributeID>Cpu Series</AttributeID>
+          <Name>Cpu Series</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="fab15b0a-50f7-4d06-a127-a30d9e35c4bc">
+          <AttributeID>Cpu Name</AttributeID>
+          <Name>Cpu Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="751bb439-fbf7-40bd-96a0-36481b70e246">
+          <AttributeID>Cpu n Cores</AttributeID>
+          <Name>Cpu n Cores</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ed52cd24-a0f6-4d66-85c9-559183eaddd7">
+          <AttributeID>Cpu Socket</AttributeID>
+          <Name>Cpu Socket</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8998f552-85c4-4fa5-b905-b84362c6e4b2">
+      <ID>Cpu Vendor Name</ID>
+      <Name>Cpu Vendor Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d04fc117-0939-425a-bf58-80d283c54936">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="861d7796-3e0d-4407-b71e-853012b08d68">
+            <TableID>Group_ID_480_Cpu</TableID>
+            <ColumnID>cpu_vendor_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a90b0bd7-47e5-4412-b5bd-885d675b236f">
+      <ID>Cpu Brand</ID>
+      <Name>Cpu Brand</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="81ffdbb1-aa97-4bda-afa1-d7512a0175bc">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a03d41ed-27ea-4276-a83b-e3d82d14b8d8">
+            <TableID>Group_ID_480_Cpu</TableID>
+            <ColumnID>cpu_brand</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9bddc3ab-9b89-4635-90fd-27aa4b3b7579">
+      <ID>Cpu Series</ID>
+      <Name>Cpu Series</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e01e1f90-c813-4620-b611-2488d1e19db5">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="82085b07-e73a-433b-9270-c379c0a6df79">
+            <TableID>Group_ID_480_Cpu</TableID>
+            <ColumnID>cpu_series</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8a8bcc2e-34cf-4262-ba9f-ba4da85ca01f">
+      <ID>Cpu Name</ID>
+      <Name>Cpu Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="71a0d48d-1d69-4c87-8e4c-3295153758f2">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a95062a7-bfe2-4ae7-b5b6-58c281a03355">
+            <TableID>Group_ID_480_Cpu</TableID>
+            <ColumnID>cpu_name</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b449d89a-35c1-41fe-b4e7-3089e2772350">
+      <ID>Cpu n Cores</ID>
+      <Name>Cpu n Cores</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9863cc44-2929-4e73-a6a4-9f20c6250514">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aaaa5675-9e1d-4e2c-903a-8426e48e0484">
+            <TableID>Group_ID_480_Cpu</TableID>
+            <ColumnID>cpu_n_cores</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4277e9d7-a0b2-4619-8428-22252e22c373">
+      <ID>Cpu Socket</ID>
+      <Name>Cpu Socket</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="799bca1a-9a8c-4a16-9ce2-3ee55f35f3ab">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9738cd5e-fbf7-421b-9fba-fc443b274749">
+            <TableID>Group_ID_480_Cpu</TableID>
+            <ColumnID>cpu_socket</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="32d1d430-ab69-4346-a79a-379ec770f4ed">
+      <ID>Hierarchy</ID>
+      <Name>BrandSeriesSocketName</Name>
+      <Levels>
+        <Level dwd:design-time-name="11daa839-d54a-4926-a889-3296ff4a1828">
+          <ID>Cpu Brand</ID>
+          <Name>Cpu Brand</Name>
+          <SourceAttributeID>Cpu Brand</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="86e8a72a-fdd9-4f2a-b561-fed7ab3d1cda">
+          <ID>Cpu Series</ID>
+          <Name>Cpu Series</Name>
+          <SourceAttributeID>Cpu Series</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="7d8af3a3-b2d0-417a-be91-0e69a2f7c754">
+          <ID>Cpu Socket</ID>
+          <Name>Cpu Socket</Name>
+          <SourceAttributeID>Cpu Socket</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1352fc61-0f01-4ec2-be9e-cc0ead34895d">
+          <ID>Cpu Name</ID>
+          <Name>Cpu Name</Name>
+          <SourceAttributeID>Cpu Name</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b0a7a1aa-1c08-4b60-b823-c5111bb452d0">
+          <ID>Cpu Id</ID>
+          <Name>Cpu Id</Name>
+          <SourceAttributeID>Cpu Id</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

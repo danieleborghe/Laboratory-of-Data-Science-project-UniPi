@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Group_ID_480_DB</Database>
+    <Server>http://lds.di.unipi.it/olap/msmdpump.dll</Server>
+    <ConnectionString>Data Source=http://lds.di.unipi.it/olap/msmdpump.dll;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>ww38d2I/LgtpFuFN/00qB7fHkI0=8/22/2024 3:31:23 PM8/22/2024 3:31:23 PM</TimeStamp>
+        <ID>
+          <String>Group ID 480 DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>SUrgjcSBqMBEkhR7gMg01tSJ0Aw=8/22/2024 3:34:19 PM8/22/2024 3:34:17 PM</TimeStamp>
+        <ID>
+          <String>Group ID 480 DB</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>jZ31x1fy36OlxSRMryVOpnpo8HY=8/22/2024 4:37:51 PM8/22/2024 3:40:43 PM</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WiI927GHF9gg8bjR0QCvwmNDTaE=8/22/2024 4:37:51 PM8/22/2024 4:23:25 PM</TimeStamp>
+        <ID>
+          <String>Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>CXll/8ol+1Z5JqM8m3pqB6JU6m8=8/22/2024 4:34:50 PM8/22/2024 4:29:19 PM</TimeStamp>
+        <ID>
+          <String>Cpu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>TsttA7w8eWD4IF0M2yetEIpQYrY=8/22/2024 4:41:05 PM8/22/2024 4:37:51 PM</TimeStamp>
+        <ID>
+          <String>Ram</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1jdv1d1P4Ztg+ppz/EtVkr2mqcs=8/22/2024 4:45:34 PM8/22/2024 4:42:35 PM</TimeStamp>
+        <ID>
+          <String>Gpu</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>iSSQVQ9QtuFEbTQ7amlc03rEO3I=8/22/2024 4:55:33 PM8/22/2024 4:55:33 PMftmTX5WVh/kWXLzzM3n87fAbyEE=8/22/2024 4:55:33 PM8/22/2024 4:55:33 PM</TimeStamp>
+        <ID>
+          <String>Group ID 480 Cube</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>oCQPB4Nj2zdPXnVTLehK/Pv2wnQ=8/22/2024 3:09:56 PM8/22/2024 3:09:55 PM</TimeStamp>
+      <ID>
+        <String>Group_ID_480_DB</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-08-22T14:58:29.213333Z</LastDeployed>
+</DeploymentSnapshot>

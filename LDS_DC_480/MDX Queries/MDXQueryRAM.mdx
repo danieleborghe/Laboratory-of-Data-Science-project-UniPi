@@ -1,0 +1,28 @@
+WITH 
+    -- Calcola le vendite medie mensili per ogni brand RAM
+    MEMBER [Measures].[AvgMonthlyRamSales] AS 
+        AVG([Time].[Month].MEMBERS, [Measures].[Ram Sales])
+        
+    -- Seleziona i Top 5 RAM brand
+    SET [TopRamBrands] AS 
+        TOPCOUNT(
+            EXCEPT(
+                [Ram].[Ram Brand].MEMBERS, 
+                {[Ram].[Ram Brand].[All]} -- Escludi il membro "All"
+            ), 
+            5, 
+            [Measures].[AvgMonthlyRamSales]
+        )
+        
+SELECT 
+    [Measures].[AvgMonthlyRamSales] ON COLUMNS,
+    
+    NON EMPTY 
+    { 
+        ([TopRamBrands], [Geography].[Region].MEMBERS) 
+    } ON ROWS
+    
+FROM [Group ID 480 Cube]
+    
+WHERE 
+    [Geography].[Continent].[Europe]

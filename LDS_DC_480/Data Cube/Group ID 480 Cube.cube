@@ -1,0 +1,421 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="79710444-0d62-48a8-89c2-20c33c4ac6d3" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Group ID 480 Cube</ID>
+  <Name>Group ID 480 Cube</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="b0d9c954-b906-42da-a70f-dbb62697ff9c">
+      <ID>Cpu</ID>
+      <Name>Cpu</Name>
+      <DimensionID>Cpu</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e854815e-8973-42e6-9065-c4b7b30c8ef8">
+          <AttributeID>Cpu Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="410272d7-5455-44d2-a2ce-809b05d100e7">
+          <AttributeID>Cpu Vendor Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cd029157-1348-4ec9-852d-df29d49c0492">
+          <AttributeID>Cpu Brand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="605b9a9e-f486-418a-84b9-69875469df6d">
+          <AttributeID>Cpu Series</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7b22f5bd-7530-4b5d-a3b3-40d132862780">
+          <AttributeID>Cpu Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a8cb59b0-7a98-4e79-b122-115b59d420b1">
+          <AttributeID>Cpu n Cores</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="71fefadf-9353-4c1a-ae3d-fb0d8f92c6f3">
+          <AttributeID>Cpu Socket</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b125ccba-6ddb-4652-822a-918717283c4f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="06ded03a-1896-4703-b243-0a82bb30457a">
+      <ID>Ram</ID>
+      <Name>Ram</Name>
+      <DimensionID>Ram</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d2454311-34a7-4659-bc3f-2c2b8c08ae6a">
+          <AttributeID>Ram Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e66d576f-27db-4b00-971e-97e8c32ac074">
+          <AttributeID>Ram Vendor Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="747c8ef2-7dcf-4e0f-b6f7-2ad7fc31c9b7">
+          <AttributeID>Ram Brand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e4e78eb7-ea41-4109-b111-8de2b0aa71bf">
+          <AttributeID>Ram Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8cf9f52-3258-458f-a010-250f10a9656e">
+          <AttributeID>Ram Type</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3027d4ef-41a0-4289-a45e-d1587dbc50b2">
+          <AttributeID>Ram Size</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="31bba0aa-8918-42ea-8118-80ff2b388aed">
+          <AttributeID>Ram Clock</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="6eaeb6ab-e532-4231-a680-1fdb760ef57f">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="c4fc93e1-cdbb-4071-baf4-8149f206466c">
+      <ID>Gpu</ID>
+      <Name>Gpu</Name>
+      <DimensionID>Gpu</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="2a238615-fe41-4c6a-b228-9651aa849847">
+          <AttributeID>Gpu Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="72194326-4317-49e4-85d5-2d559ecf1601">
+          <AttributeID>Gpu Vendor Name</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02c8aa77-3593-46fe-8d4d-381f40319d0b">
+          <AttributeID>Gpu Brand</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="75898a24-9662-49f8-979f-b39a002e1dd8">
+          <AttributeID>Cpu Series</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="99ca15ff-d84e-41b3-9b37-1fdd7c06d2d0">
+          <AttributeID>Gpu Processor Manufacturer</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="40227629-53d1-4f3a-8712-80387971277a">
+          <AttributeID>Gpu Memory</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1da364ec-0b93-43ee-a3bc-2e65924abde9">
+          <AttributeID>Gpu Memory Type</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="06c11259-7a3f-4cbf-9476-a299fbeb59b0">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="4faf141c-384a-4704-aca0-180d6447cf06">
+      <ID>Time</ID>
+      <Name>Time</Name>
+      <DimensionID>Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="8ad5793b-8241-4b17-b029-b0fd5f34181e">
+          <AttributeID>Time Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0a2ed6a2-c6a9-4a9c-a702-7870a7887063">
+          <AttributeID>Day</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dad3b804-1a58-4690-88c6-60fb88275b92">
+          <AttributeID>Month</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="157b98d2-26f4-41f8-a1e9-f8c4a56b82ca">
+          <AttributeID>Week</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd906bb3-3abd-4c6b-a5b6-1bb7e26c7e93">
+          <AttributeID>Quarter</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a07ab16-cb5f-400d-9764-0eb6c1296462">
+          <AttributeID>Year</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ee7404cb-0cb8-4dd1-8bc6-61557f8710d3">
+          <AttributeID>Day Of Week</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="0f3420b2-a3bb-4be8-96b5-de4f802bb221">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="52b90d02-8811-4ac5-9b08-a56ee6d92b33">
+      <ID>Geography</ID>
+      <Name>Geography</Name>
+      <DimensionID>Geography</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="7ea1b03a-c466-4817-a8ff-ca69657ff32f">
+          <AttributeID>Geo Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="084f5c6a-06e5-4daa-bc5f-e8a63994682d">
+          <AttributeID>Continent</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a6c35c55-cb62-4984-9955-c0d46c921e6e">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="61f9c231-7d98-4a98-bfdd-047c1f81040e">
+          <AttributeID>Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9850bbbe-3af7-4c5d-9084-076d8a222adb">
+          <AttributeID>Currency</AttributeID>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="af4d9083-d677-4762-a0b1-001453d03d4e">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="ad05475f-1666-488e-b0a4-9d7452c666e5">
+      <ID>Computer Sales</ID>
+      <Name>Computer Sales</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="2a7e7146-f719-48f8-a64e-464f54537504">
+          <ID>Ram Sales</ID>
+          <Name>Ram Sales</Name>
+          <Source dwd:design-time-name="0f3b91e9-b2b0-42ef-aca0-c8a03269141c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="3e435a4e-1f6b-478a-95b3-dc20c414cbcc">
+              <TableID>Group_ID_480_Computer_sales</TableID>
+              <ColumnID>ram_sales</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e0097eec-de98-417a-9886-270e89eb9b34">
+          <ID>Ram Sales Usd</ID>
+          <Name>Ram Sales Usd</Name>
+          <Source dwd:design-time-name="698b3297-826d-4a02-8318-2eb46b61e9f8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="61d6d864-8fe5-434b-b762-c654336ccfde">
+              <TableID>Group_ID_480_Computer_sales</TableID>
+              <ColumnID>ram_sales_usd</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8bbb1932-b165-47eb-9ad9-d360809340cd">
+          <ID>Cpu Sales</ID>
+          <Name>Cpu Sales</Name>
+          <Source dwd:design-time-name="d9cd5e38-df21-4c84-9047-916569ceac71">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="044e5b5d-1559-4114-988b-df99d159815e">
+              <TableID>Group_ID_480_Computer_sales</TableID>
+              <ColumnID>cpu_sales</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f0c47143-0bbd-4c60-b074-30d5b7352754">
+          <ID>Cpu Sales Usd</ID>
+          <Name>Cpu Sales Usd</Name>
+          <Source dwd:design-time-name="886ef589-62af-4e8b-b7a1-93b36e2fd52d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="75fe1a59-89cb-495a-9c89-304f062daed2">
+              <TableID>Group_ID_480_Computer_sales</TableID>
+              <ColumnID>cpu_sales_usd</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="e7cb8f95-1a28-4953-a28b-4455fa7dba66">
+          <ID>Gpu Sales</ID>
+          <Name>Gpu Sales</Name>
+          <Source dwd:design-time-name="1d50b6fd-e238-40cf-be8e-43639e817142">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2419fa4b-bd72-4287-952c-e9eaea34e8fa">
+              <TableID>Group_ID_480_Computer_sales</TableID>
+              <ColumnID>gpu_sales</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="af638626-d0c7-4d61-83ad-564a0df6abcc">
+          <ID>Gpu Sales Usd</ID>
+          <Name>Gpu Sales Usd</Name>
+          <Source dwd:design-time-name="69f1a6c2-dbd1-4a0c-9518-5cd6c8acc786">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d65bcf93-aa4d-4b64-9d86-7d10c6d9f14e">
+              <TableID>Group_ID_480_Computer_sales</TableID>
+              <ColumnID>gpu_sales_usd</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b3781b9b-dd3a-4824-af7e-8e4906f5bc69">
+          <ID>Total Sales</ID>
+          <Name>Total Sales</Name>
+          <Source dwd:design-time-name="2fc4b138-677e-48db-8efb-702c488bbc48">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="47421d03-7ab8-42df-b032-1e2d14831a1b">
+              <TableID>Group_ID_480_Computer_sales</TableID>
+              <ColumnID>total_sales</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="acb99093-5033-41c6-91bf-a7f6f96b017e">
+          <ID>Total Sales Usd</ID>
+          <Name>Total Sales Usd</Name>
+          <Source dwd:design-time-name="f3995b70-f12f-4e4d-8a1b-00c4ba62e763">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6def9104-6da6-40c7-8e7b-f20ee3e9fd01">
+              <TableID>Group_ID_480_Computer_sales</TableID>
+              <ColumnID>total_sales_usd</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="77da4030-a979-4b8d-9bfb-49b3467f88c5">
+          <ID>Computer Sales Count</ID>
+          <Name>Computer Sales Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="7a166e4a-59c9-4278-b9c4-f32c9b3c3b5d">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ae34b079-6f4f-47ea-b889-330bd3a9e8ad">
+              <TableID>Group_ID_480_Computer_sales</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="423731d7-ad60-45aa-b65b-01784f1f2f4f">
+          <CubeDimensionID>Cpu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="184e2628-5c22-438d-8f4d-9b6e4d382449">
+              <AttributeID>Cpu Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e32efa8c-8719-4722-b43b-b9beb19fba7a">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="948243e2-2830-4279-a658-61abbeb4baac">
+                    <TableID>Group_ID_480_Computer_sales</TableID>
+                    <ColumnID>cpu_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8e150b81-278a-4d2b-9573-305dfe12f6af">
+          <CubeDimensionID>Ram</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b10d418e-aaac-44b1-b1bb-4a5068f8f8f0">
+              <AttributeID>Ram Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="10f02569-c3bb-4fdc-8d2d-a995d3ff7e38">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="418d4b63-7169-4581-899c-7b174cc7e214">
+                    <TableID>Group_ID_480_Computer_sales</TableID>
+                    <ColumnID>ram_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="988a432a-4092-48b8-92d2-f805a1e15037">
+          <CubeDimensionID>Gpu</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c83bf03f-4459-4071-beb7-6ef3f9acebc6">
+              <AttributeID>Gpu Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="beef20bc-d15a-48d6-972a-88de51312ced">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="41932857-3945-40a5-b4f8-0b8f5303087d">
+                    <TableID>Group_ID_480_Computer_sales</TableID>
+                    <ColumnID>gpu_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2290daf0-9450-4c66-91af-682a61c3949e">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2e7497d9-37f6-4e05-94e0-788f7da09aef">
+              <AttributeID>Time Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="422e53a3-491e-4344-bbb5-1e1ae154d964">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b744c88c-1224-4486-91c1-f41219ca1adf">
+                    <TableID>Group_ID_480_Computer_sales</TableID>
+                    <ColumnID>time_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="77d82067-8da3-4519-b445-798a36e8b8da">
+          <CubeDimensionID>Geography</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="37984de3-e2d0-4cdf-aede-f8d4b5df9f48">
+              <AttributeID>Geo Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7f059f72-ccdf-46bd-a624-5407588490ed">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="18d6734f-e116-4ba9-b746-d5306519e4cd">
+                    <TableID>Group_ID_480_Computer_sales</TableID>
+                    <ColumnID>geo_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="ce70be24-514c-46bc-a6b6-539660cc83e5">
+    <DataSourceViewID>Group ID 480 DB</DataSourceViewID>
+  </Source>
+</Cube>

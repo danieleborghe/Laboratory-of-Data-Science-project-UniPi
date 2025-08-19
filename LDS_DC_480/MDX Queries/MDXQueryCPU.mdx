@@ -1,0 +1,30 @@
+WITH 
+    -- Calcola le vendite medie mensili per ogni brand CPU
+    MEMBER [Measures].[AvgMonthlyCpuSales] AS 
+        AVG( [Time].[Month].MEMBERS, [Measures].[Cpu Sales] )
+        
+    -- Seleziona i Top 5 CPU brand per regione
+    SET [TopCpuBrands] AS 
+        TOPCOUNT(
+            EXCEPT(
+                [Cpu].[Cpu Brand].MEMBERS, 
+                {[Cpu].[Cpu Brand].[All]} -- Escludi il membro "All"
+            ), 
+            5, 
+            [Measures].[AvgMonthlyCpuSales]
+        )
+        
+SELECT 
+    {
+        [Measures].[AvgMonthlyCpuSales]
+    } ON COLUMNS,
+    
+    NON EMPTY 
+    (
+        [TopCpuBrands] * [Geography].[Region].MEMBERS
+    ) ON ROWS
+    
+FROM [Group ID 480 Cube]
+    
+WHERE 
+    [Geography].[Continent].[Europe]

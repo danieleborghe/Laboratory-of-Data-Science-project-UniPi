@@ -1,0 +1,1 @@
+sale_id,geo_id,time_id,cpu_id,cpu_sales,cpu_sales_usd,total_sales,total_sales_usd,ErrorCode,ErrorColumn

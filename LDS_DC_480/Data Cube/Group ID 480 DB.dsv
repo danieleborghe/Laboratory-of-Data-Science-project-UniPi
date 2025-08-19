@@ -1,0 +1,295 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c8a6af14-51b5-44ab-8d5f-b3ed2b76241f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Group ID 480 DB</ID>
+  <Name>Group ID 480 DB</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Group ID 480 DB</DataSourceID>
+  <Schema>
+    <xs:schema id="Group_x0020_ID_x0020_480_x0020_DB" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Group_x0020_ID_x0020_480_x0020_DB" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="b765d176-fac6-4e52-b59b-f3331020aaa1">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Group_ID_480_Computer_sales" msprop:design-time-name="ee00aaaf-3130-4d7d-9c0d-7f828ceded04" msprop:DbTableName="Computer_sales" msprop:FriendlyName="Computer_sales" msprop:DbSchemaName="Group_ID_480" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="sale_id" msprop:design-time-name="6e00baef-fab0-4a27-82c5-6935a847c14e" msprop:DbColumnName="sale_id" msprop:FriendlyName="sale_id" type="xs:int" />
+                  <xs:element name="geo_id" msprop:design-time-name="2ad77b87-e8b0-4c08-be84-e61d6aa1b5e3" msprop:DbColumnName="geo_id" msprop:FriendlyName="geo_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="time_id" msprop:design-time-name="c637d7d6-050b-44ae-876c-0580dfa78b06" msprop:DbColumnName="time_id" msprop:FriendlyName="time_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="ram_id" msprop:design-time-name="8f6d7e13-b67b-47d4-9fbf-338fbd4d0821" msprop:DbColumnName="ram_id" msprop:FriendlyName="ram_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="cpu_id" msprop:design-time-name="e0832234-ba9d-40c4-8d67-29899a265f41" msprop:DbColumnName="cpu_id" msprop:FriendlyName="cpu_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="gpu_id" msprop:design-time-name="dfde3510-d981-4531-8a4e-664c51af2604" msprop:DbColumnName="gpu_id" msprop:FriendlyName="gpu_id" type="xs:int" minOccurs="0" />
+                  <xs:element name="ram_sales" msprop:design-time-name="c9622dc4-9769-41cc-abb8-6a69e4d52ab0" msprop:DbColumnName="ram_sales" msprop:FriendlyName="ram_sales" type="xs:double" minOccurs="0" />
+                  <xs:element name="ram_sales_usd" msprop:design-time-name="810858ee-9a11-43fe-9c7c-eaf95d0fc6f0" msprop:DbColumnName="ram_sales_usd" msprop:FriendlyName="ram_sales_usd" type="xs:double" minOccurs="0" />
+                  <xs:element name="cpu_sales" msprop:design-time-name="d0ab1211-9695-4617-9efd-7f4e706cf5a4" msprop:DbColumnName="cpu_sales" msprop:FriendlyName="cpu_sales" type="xs:double" minOccurs="0" />
+                  <xs:element name="cpu_sales_usd" msprop:design-time-name="f5cf7c38-5255-441b-8c2d-de6f62d71a70" msprop:DbColumnName="cpu_sales_usd" msprop:FriendlyName="cpu_sales_usd" type="xs:double" minOccurs="0" />
+                  <xs:element name="gpu_sales" msprop:design-time-name="72d597e7-7ec6-4af5-ae2e-cb201ea63baa" msprop:DbColumnName="gpu_sales" msprop:FriendlyName="gpu_sales" type="xs:double" minOccurs="0" />
+                  <xs:element name="gpu_sales_usd" msprop:design-time-name="1cb852fc-76a6-4e8f-ad8d-34fc1ac7ef12" msprop:DbColumnName="gpu_sales_usd" msprop:FriendlyName="gpu_sales_usd" type="xs:double" minOccurs="0" />
+                  <xs:element name="total_sales" msprop:design-time-name="edc05dbe-54a6-4365-86a2-ed2cfb223b98" msprop:DbColumnName="total_sales" msprop:FriendlyName="total_sales" type="xs:double" minOccurs="0" />
+                  <xs:element name="total_sales_usd" msprop:design-time-name="080993a8-d44d-4e8d-b0aa-17de12d5876a" msprop:DbColumnName="total_sales_usd" msprop:FriendlyName="total_sales_usd" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_480_Cpu" msprop:design-time-name="436f439f-cf50-477c-98ea-7ba26cdb640f" msprop:DbTableName="Cpu" msprop:FriendlyName="Cpu" msprop:DbSchemaName="Group_ID_480" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="cpu_id" msprop:design-time-name="17c79afe-b420-4990-b4f0-2d173c8cc128" msprop:DbColumnName="cpu_id" msprop:FriendlyName="cpu_id" type="xs:int" />
+                  <xs:element name="cpu_vendor_name" msprop:design-time-name="3fe20723-e2b7-43c6-8e02-4b7dec93cd5e" msprop:DbColumnName="cpu_vendor_name" msprop:FriendlyName="cpu_vendor_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cpu_brand" msprop:design-time-name="c3c57270-125d-486b-a1ec-2dc8adc8fb26" msprop:DbColumnName="cpu_brand" msprop:FriendlyName="cpu_brand" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cpu_series" msprop:design-time-name="cb5231e2-7508-4af7-91ed-e143c7950040" msprop:DbColumnName="cpu_series" msprop:FriendlyName="cpu_series" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cpu_name" msprop:design-time-name="be5bdc7e-74c6-443c-bc7e-aa5f60e30a29" msprop:DbColumnName="cpu_name" msprop:FriendlyName="cpu_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cpu_n_cores" msprop:design-time-name="a5ff61e7-aa62-4a60-8a78-ae4b5ccef4fa" msprop:DbColumnName="cpu_n_cores" msprop:FriendlyName="cpu_n_cores" type="xs:int" minOccurs="0" />
+                  <xs:element name="cpu_socket" msprop:design-time-name="8cace970-4f42-4af8-86f8-84a19bbbfb85" msprop:DbColumnName="cpu_socket" msprop:FriendlyName="cpu_socket" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_480_Geography" msprop:design-time-name="f3a0d072-c2fe-422b-9099-3ece2a288502" msprop:DbTableName="Geography" msprop:FriendlyName="Geography" msprop:DbSchemaName="Group_ID_480" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="geo_id" msprop:design-time-name="aa8a6463-12d5-4e9e-a136-6cf65158d886" msprop:DbColumnName="geo_id" msprop:FriendlyName="geo_id" type="xs:int" />
+                  <xs:element name="continent" msprop:design-time-name="6b3e0d59-63d4-4613-94fa-63ed3e5fa48d" msprop:DbColumnName="continent" msprop:FriendlyName="continent" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="country" msprop:design-time-name="14537a6c-d520-4a09-854c-eb782ee7a68f" msprop:DbColumnName="country" msprop:FriendlyName="country" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="region" msprop:design-time-name="11804002-f394-4c02-bf73-8b56712ea753" msprop:DbColumnName="region" msprop:FriendlyName="region" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="currency" msprop:design-time-name="8814619f-56e2-46b0-baa4-fafcdbe9010b" msprop:DbColumnName="currency" msprop:FriendlyName="currency" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_480_Gpu" msprop:design-time-name="e7b06497-6fc4-4263-80c7-feecd30681a2" msprop:DbTableName="Gpu" msprop:FriendlyName="Gpu" msprop:DbSchemaName="Group_ID_480" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="gpu_id" msprop:design-time-name="a4508a59-f640-42d7-bb1a-707e6b613382" msprop:DbColumnName="gpu_id" msprop:FriendlyName="gpu_id" type="xs:int" />
+                  <xs:element name="gpu_vendor_name" msprop:design-time-name="fc19770a-ee75-4b27-9df0-eb47f925780b" msprop:DbColumnName="gpu_vendor_name" msprop:FriendlyName="gpu_vendor_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="gpu_brand" msprop:design-time-name="423d9c0d-3230-4c30-9e48-76330f72ea80" msprop:DbColumnName="gpu_brand" msprop:FriendlyName="gpu_brand" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="cpu_series" msprop:design-time-name="bb009da0-5b79-4eec-a587-303105f1e8f4" msprop:DbColumnName="cpu_series" msprop:FriendlyName="cpu_series" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="gpu_processor_manufacturer" msprop:design-time-name="46855c3c-8650-491d-a0bb-aebed03d6eae" msprop:DbColumnName="gpu_processor_manufacturer" msprop:FriendlyName="gpu_processor_manufacturer" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="gpu_memory" msprop:design-time-name="a754f04e-3e76-4d18-a35a-6d52f8581fcd" msprop:DbColumnName="gpu_memory" msprop:FriendlyName="gpu_memory" type="xs:double" minOccurs="0" />
+                  <xs:element name="gpu_memory_type" msprop:design-time-name="a21dba50-92df-4dcd-a208-469d922bc9c0" msprop:DbColumnName="gpu_memory_type" msprop:FriendlyName="gpu_memory_type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_480_Ram" msprop:design-time-name="7fe918c1-a484-4b82-941b-92f8e04f8642" msprop:DbTableName="Ram" msprop:FriendlyName="Ram" msprop:DbSchemaName="Group_ID_480" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ram_id" msprop:design-time-name="51cb58c6-26b3-4ed5-9206-958d153bb6e7" msprop:DbColumnName="ram_id" msprop:FriendlyName="ram_id" type="xs:int" />
+                  <xs:element name="ram_vendor_name" msprop:design-time-name="e9b37752-4011-4a2a-97e8-47ebe433fe54" msprop:DbColumnName="ram_vendor_name" msprop:FriendlyName="ram_vendor_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ram_brand" msprop:design-time-name="e777bb07-4f86-4d0d-9ee1-974d2aac1f2e" msprop:DbColumnName="ram_brand" msprop:FriendlyName="ram_brand" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ram_name" msprop:design-time-name="9abf2454-36f5-4821-957f-7e8962a5879e" msprop:DbColumnName="ram_name" msprop:FriendlyName="ram_name" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ram_type" msprop:design-time-name="454b06ac-90a3-4c5c-bd81-95187d3e67d0" msprop:DbColumnName="ram_type" msprop:FriendlyName="ram_type" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ram_size" msprop:design-time-name="f8925643-83d4-4f2a-9f5b-c80c43470503" msprop:DbColumnName="ram_size" msprop:FriendlyName="ram_size" type="xs:double" minOccurs="0" />
+                  <xs:element name="ram_clock" msprop:design-time-name="ed169163-ac17-4fd7-a29c-be93b212a4b3" msprop:DbColumnName="ram_clock" msprop:FriendlyName="ram_clock" type="xs:double" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="Group_ID_480_Time" msprop:design-time-name="19b646fb-6109-4cd7-974f-ad4934036146" msprop:DbTableName="Time" msprop:FriendlyName="Time" msprop:DbSchemaName="Group_ID_480" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="time_id" msprop:design-time-name="98908199-c09a-42cb-bdcb-23f1e488fdd8" msprop:DbColumnName="time_id" msprop:FriendlyName="time_id" type="xs:int" />
+                  <xs:element name="day" msprop:design-time-name="f42332b2-fe35-4378-a958-c9fa67831d25" msprop:DbColumnName="day" msprop:FriendlyName="day" type="xs:int" minOccurs="0" />
+                  <xs:element name="month" msprop:design-time-name="ff9c51fc-8033-4ecd-9d8d-6ad2e326f4f5" msprop:DbColumnName="month" msprop:FriendlyName="month" type="xs:int" minOccurs="0" />
+                  <xs:element name="year" msprop:design-time-name="d3cb7c13-563c-4c69-a0a5-aa232ff05058" msprop:DbColumnName="year" msprop:FriendlyName="year" type="xs:int" minOccurs="0" />
+                  <xs:element name="day_of_week" msprop:design-time-name="613d5f2e-8e34-4253-b0d1-f587e4cdce71" msprop:DbColumnName="day_of_week" msprop:FriendlyName="day_of_week" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="week" msprop:design-time-name="69c25b58-6c8e-44af-b6a4-a7e3f1642fe4" msprop:DbColumnName="week" msprop:FriendlyName="week" type="xs:int" minOccurs="0" />
+                  <xs:element name="quarter" msprop:design-time-name="3b0d2617-3828-4ef7-878e-a565c3795d9e" msprop:DbColumnName="quarter" msprop:FriendlyName="quarter" type="xs:int" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_480_Computer_sales" />
+          <xs:field xpath="sale_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_480_Cpu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_480_Cpu" />
+          <xs:field xpath="cpu_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_480_Geography_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_480_Geography" />
+          <xs:field xpath="geo_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_480_Gpu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_480_Gpu" />
+          <xs:field xpath="gpu_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_480_Ram_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_480_Ram" />
+          <xs:field xpath="ram_id" />
+        </xs:unique>
+        <xs:unique name="Group_ID_480_Time_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//Group_ID_480_Time" />
+          <xs:field xpath="time_id" />
+        </xs:unique>
+        <xs:keyref name="FK__Computer___geo_i__38996AB5" refer="Group_ID_480_Geography_Constraint1">
+          <xs:selector xpath=".//Group_ID_480_Computer_sales" />
+          <xs:field xpath="geo_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__Computer___time___398D8EEE" refer="Group_ID_480_Time_Constraint1">
+          <xs:selector xpath=".//Group_ID_480_Computer_sales" />
+          <xs:field xpath="time_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__Computer___gpu_i__3C69FB99" refer="Group_ID_480_Gpu_Constraint1">
+          <xs:selector xpath=".//Group_ID_480_Computer_sales" />
+          <xs:field xpath="gpu_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__Computer___ram_i__3A81B327" refer="Group_ID_480_Ram_Constraint1">
+          <xs:selector xpath=".//Group_ID_480_Computer_sales" />
+          <xs:field xpath="ram_id" />
+        </xs:keyref>
+        <xs:keyref name="FK__Computer___cpu_i__3B75D760" refer="Group_ID_480_Cpu_Constraint1">
+          <xs:selector xpath=".//Group_ID_480_Computer_sales" />
+          <xs:field xpath="cpu_id" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Group_x0020_ID_x0020_480_x0020_DB xmlns="" />
+  </Schema>
+</DataSourceView>

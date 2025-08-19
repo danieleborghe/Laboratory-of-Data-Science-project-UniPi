@@ -1,0 +1,28 @@
+WITH 
+    -- Calcola le vendite medie mensili per ogni brand GPU
+    MEMBER [Measures].[AvgMonthlyGpuSales] AS 
+        AVG([Time].[Month].MEMBERS, [Measures].[Gpu Sales])
+        
+    -- Seleziona i Top 5 GPU brand
+    SET [TopGpuBrands] AS 
+        TOPCOUNT(
+            EXCEPT(
+                [Gpu].[Gpu Brand].MEMBERS, 
+                {[Gpu].[Gpu Brand].[All]} -- Escludi il membro "All"
+            ), 
+            5, 
+            [Measures].[AvgMonthlyGpuSales]
+        )
+        
+SELECT 
+    [Measures].[AvgMonthlyGpuSales] ON COLUMNS,
+    
+    NON EMPTY 
+    { 
+        ([TopGpuBrands], [Geography].[Region].MEMBERS) 
+    } ON ROWS
+    
+FROM [Group ID 480 Cube]
+    
+WHERE 
+    [Geography].[Continent].[Europe]
